@@ -63,6 +63,7 @@ body{
 .text:nth-child(4){
     font-size: 30px;
     background-image: linear-gradient(to right, #431f1d, #90584b);
+    font-weight: 900;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     cursor: auto;
@@ -137,6 +138,10 @@ body{
     margin-left: 640px;
     border-color: #ebc6a8;
     cursor: pointer;
+}
+.about_btn:hover{
+    background: linear-gradient(to bottom, #90584b, #431f1d, #08090b);
+    padding-bottom: 50px;
 }
 .about_img{
     height: 100%;
